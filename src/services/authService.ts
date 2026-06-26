@@ -1,7 +1,21 @@
 export const login = async () => {
-  console.log("Login service");
+  return Promise.resolve({
+    success: true,
+  });
 };
 
 export const logout = async () => {
-  console.log("Logout service");
+  return Promise.resolve({
+    success: true,
+  });
+};
+
+export const signup = async (name: string, email: string) => {
+  return Promise.resolve({
+    success: true,
+    user: {
+      name,
+      email,
+    },
+  });
 };
