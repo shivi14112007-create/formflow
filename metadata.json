@@ -1,0 +1,6 @@
+{
+  "name": "FormFlow",
+  "description": "A premium no-code serverless form builder with real-time analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
